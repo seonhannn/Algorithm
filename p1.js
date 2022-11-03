@@ -1,3 +1,5 @@
+// 레벨1 푸드파이트
+
 function solution(food) {
     let ans = [];
 
@@ -12,7 +14,7 @@ function solution(food) {
                     ans[j] = i;
                 }
             }
-        } else {
+        } else { // 짝수
             for(let j=0; j<food[i]/2; j++) {
                 ans.push(i);
             }
