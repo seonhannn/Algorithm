@@ -1,4 +1,4 @@
-// 레벨1 푸드파이트
+// 프로그래머스 레벨1 푸드파이트
 
 function solution(food) {
     let ans = [];
